@@ -3,7 +3,7 @@ name: "kata 自动续期任务"
 on:
   schedule:
     # 每天执行：UTC 22:00 (北京时间 次日早上 06:00)
-    - cron: '0 22 * * *'
+    - cron: '0 1 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
